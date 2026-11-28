@@ -23,11 +23,20 @@
 
 全部安装包见 [Releases](https://github.com/Daju-cpp/Daju-download/releases)，无需登录：
 
-| 文件 | 说明 |
-| --- | --- |
-| `DajuSetup_v9.0_build29.9.exe` | 主线版安装包（内置 WebView2 内核，体积较大） |
-| `DajuSetupT_v9.0_build29.9T.exe` | T 精简版安装包（体积小，无浏览器内核） |
-| `Daju.exe` | 主线版可执行文件，免安装解压即用 |
+| 文件 | 大小 | 说明 |
+| --- | --- | --- |
+| `DajuSetup_v9.0_build29.9.exe` | 241 MB | 主线版安装包（内置 WebView2 内核） |
+| `DajuSetupT_v9.0_build29.9T.exe` | 4.0 MB | T 精简版安装包（无浏览器内核） |
+| `Daju.exe` | 3.9 MB | 主线版可执行文件，免安装解压即用 |
+| `SHA256SUMS.txt` | — | 上面三个文件的校验值，`sha256sum -c` 或 `certutil -hashfile` 核对 |
+
+下载后建议核对校验值（Windows：`certutil -hashfile DajuSetup_v9.0_build29.9.exe SHA256`）：
+
+```
+b9bbc5fc429eeba75df6771c6774dc2faffdf924a2077060a71bfd7b0634a497  DajuSetup_v9.0_build29.9.exe
+5c49ccf1140a2ff50df17d800e7c30658b3dfd69a4d0f294b7bbe51eacd3675a  DajuSetupT_v9.0_build29.9T.exe
+1ce8f44b4668baa85720b86fc308e848dbf012130d39c31c2e46d46b717d52e7  Daju.exe
+```
 
 ## 本版更新
 
